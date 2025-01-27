@@ -18,3 +18,45 @@ However, if you need commercial support, extended LTS, or access to Oracle-speci
 4. What is SDK MAN?
 https://sdkman.io/install/
 to install and manage java or JDK multiple versions for local development.
+
+5. Why Java 8?
+Because of the technology advancements , java creators introduced functional programming
+Lambdas,
+Streams,
+Optionals etch.
+it Simplieifes the concurrency operations.
+
+6. What is functional programming?
+let to create functions and assign the functionality to a variable and passit around.
+and for creating immutable objects to avoid issues.
+and Writing the code in Declarative way rather than Imperative way
+
+7. What is Writing the code in Declarative way rather than Imperative way?
+
+Imperative Programming Style:
+Focus on how to perform the oeprations, Embrace object mutability, This style pf programming lists the step by step of instructions oh how to achieve an objective.
+We write the code what needs to be done in each step.
+This style is used with classic Object Oriented Programming.
+
+Declarative programming Style:
+Focus on what is the result you want.
+Embracws object immutability
+Analogous to SQL(Structured query langauage)
+Use the functions that are already present in the library to achieve an objective
+Functional programming uses declarative aproach 
+8. What is Lambda?
+Mainly used for FUnctional interfaces or Single Abstract methods(SAM) implementation.
+Prior Java8:
+@FunctionalInterface
+public interface Comparator<T>{
+int compare(T o1, To2);
+}
+@FunctionalInterface
+public interface Runnable{
+public abstact void run();
+}
+
+implementing Runnable with Lamda
+Runnable runnableWithLamda=()->System.out.println("Runnable wiht Lambda");
+new Thread(runnableWithLamda).start();
+9. Functional Interfaces?
