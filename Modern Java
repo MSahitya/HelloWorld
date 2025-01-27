@@ -1,1 +1,20 @@
+1. What is OpenJDK?
+OpenJDK (Open Java Development Kit) is a free and open-source implementation of the Java Platform, Standard Edition (Java SE). 
+It's the result of an effort initiated by Sun Microsystems in 2006, before their acquisition by Oracle.
 
+OpenJDK serves as the foundation for many commercial Java Development Kits, including Oracle's JDK.   
+In essence, OpenJDK provides the core tools and libraries necessary for developing and running Java applications
+. It's a cornerstone of the Java ecosystem, empowering developers and organizations worldwide.
+
+2. what is Oracle JDK?
+Oracle JDK is a specific distribution of the Java Development Kit (JDK) developed and maintained by Oracle Corporation. 
+It's based on the OpenJDK project but includes Oracle-specific features, optimizations, and support
+
+3. Choosing Between OpenJDK and Oracle JDK?
+The choice between OpenJDK and Oracle JDK depends on your specific needs and priorities. 
+If you require a free and open-source solution with community support, OpenJDK is an excellent choice.
+However, if you need commercial support, extended LTS, or access to Oracle-specific features, Oracle JDK is a viable option.
+
+4. What is SDK MAN?
+https://sdkman.io/install/
+to install and manage java or JDK multiple versions for local development.
